@@ -17,7 +17,7 @@ int main(int argc, char* argv[])
 	{
 		read(handles[i], text, 7);
 		//strcat(text, "\n");
-		write(0, text , strlen(text));
+		write(1, text , strlen(text));
 	}
 
 	printf("\nhandles number:\n");
