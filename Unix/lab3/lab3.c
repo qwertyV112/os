@@ -21,7 +21,7 @@ int main(){
    	 hbloc = fcntl(fhandle, F_SETLK, &lock);
             if (hbloc == ERROR)
             {
-                move(15,12); addstr("File blocked...");
+                move(12,30); addstr("File blocked...");
             }
             else{
             if (i<1)
@@ -33,7 +33,7 @@ int main(){
                 i++;
             }
             usleep(900000);
-            refresh();
+           refresh();
    	}
    	endwin();
 /*
