@@ -31,7 +31,7 @@ overlapped.hEvent = 0;
 		 hbloc = LockFileEx(fileHandle, LOCKFILE_EXCLUSIVE_LOCK | LOCKFILE_FAIL_IMMEDIATELY, NULL, 1, 0, &overlapped);
    if(hbloc==INVALID_HANDLE_VALUE)
 	{
-		erLockMessege(displayHandle);
+		//erLockMessege(displayHandle);
 
 	}
          LockFileEx(fileHandle, LOCKFILE_EXCLUSIVE_LOCK, NULL, 1, 0, &overlapped);
