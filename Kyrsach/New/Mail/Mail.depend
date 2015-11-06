@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1446628202 source:/home/misha/Git/Cp/labs/os/Kyrsach/New/Mail/main.c
+1446800871 source:/home/misha/Git/Cp/labs/os/Kyrsach/New/Mail/main.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
